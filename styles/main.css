@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  font-size: 0;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.form {
+  background-color: rgb(95, 180, 98);
+  width: 27.8rem;
+  height: 33rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.form__operator {
+  background-color:rgb(128, 193, 128);
+  border: .5px solid  rgba(255, 255, 255, .25);
+  width: 25%;
+  height: 20%;
+  float: left;
+  color: rgb(0, 0, 0);
+  font-size: 2.25;
+  text-align: center;
+  padding-top: .5rem;
+}
+
+.form__digitButton {
+  background-color:rgb(128, 193, 128);
+  border: .5px solid  rgba(255, 255, 255, .25);
+  width: 25%;
+  height: 20%;
+  float: left;
+  color: rgb(0, 0, 0);
+  font-size: 2.25;
+  text-align: center;
+  padding-top: .5rem
+}
+
+.form__clear {
+  background-color:rgb(128, 193, 128);
+  border: .5px solid  rgba(255, 255, 255, .25);
+  width: 25%;
+  height: 20%;
+  float: left;
+  color: rgb(0, 0, 0);
+  font-size: 2.25;
+  text-align: center;
+  padding-top: .5rem
+}
+
+.form__output {
+  padding-top: 1.75rem;
+  padding-right: 2rem;
+  text-align: right;
+  width: 75%;
+  height: 20%;
+  border: 1px solid rgba(255, 255, 255, .25);
+  float: left;
+  font-size: 2.25;
+}
+
+.form__equate {
+  width: 25%;
+  height: 20%;
+  border: .5px solid rgba(255, 255, 255, .25);
+  float:left;
+  font-size: 2.25;
+  color: rgb(255, 255,255);
+  font-weight: 100;
+  text-align: center;;
+  padding-top: .5rem;
+}
